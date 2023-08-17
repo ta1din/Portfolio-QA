@@ -1,24 +1,28 @@
-QA Engineer
+## QA Engineer
 
-!!Абсолютно нулевой опыт работы в QA и в IT в целом!!
+¡Привет!
+
+!!Имею абсолютно нулевой опыт работы в QA и в IT в целом!!
 зато я учусь
 
 
-НАВЫКИ QA:
-1. Jira
-2. Posman Api
-3. Qase.io
-4. SQL
+## НАВЫКИ QA
+- Инструменты по работе в SQL: ``pgAdmin``, ``dbeaver``
+- Инструменты по работе с API: ``Postman``, ``Mockoon``
+- Баг-трекинговая система: ``Jira``
+- Система управления тестированием: ``Qase.io``
 
-НАВЫКИ ещё:
-1. MS office :)
-2. FlowVision
-3. Autodesk Inventor
-4. Компас3D
-5. Adobe Flash
+## НАВЫКИ ещё
+- Работа с документами: ``MS Office``
+- Инженерное ПО: ``FlowVision``, ``Autodesk Inventor``, ``Компас3D``, ``Mathcad``
+- Разное ПО: ``Adobe Flash``, ``Adobe Audition``, ``Adobe Premier``, ``Adobe Photoshop``, ``FL Studio``, ``Krita``
+- Языки: ``Русский``, ``English``, ``Español``
+
+## Проекты
 
 
-СВЯЗЬ:
-/Email: crysis.deryabiN@gmail.com
-/LinkedIn: https://www.linkedin.com/in/vitaly-deryabin-2a5998259
-/Telegram: @taldin
+
+## СВЯЗЬ
+- Email: crysis.deryabiN@gmail.com
+- LinkedIn: https://www.linkedin.com/in/vitaly-deryabin-2a5998259
+- Telegram: @taldin
