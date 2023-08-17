@@ -19,6 +19,6 @@ QA Engineer
 
 
 СВЯЗЬ:
-  Email: crysis.deryabiN@gmail.com
-  LinkedIn: https://www.linkedin.com/in/vitaly-deryabin-2a5998259
-  Telegram: @taldin
+/Email: crysis.deryabiN@gmail.com
+/LinkedIn: https://www.linkedin.com/in/vitaly-deryabin-2a5998259
+/Telegram: @taldin
