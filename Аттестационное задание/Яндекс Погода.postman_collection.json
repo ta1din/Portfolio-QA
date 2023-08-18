@@ -1,0 +1,230 @@
+{
+	"info": {
+		"_postman_id": "810e286d-6354-4b61-8741-a969929d2f17",
+		"name": "Яндекс Погода",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27307413"
+	},
+	"item": [
+		{
+			"name": "\"+\" Запрос на получение тестовых данных",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Yandex-API-Key",
+						"value": "ec75ae2a-d657-4756-b429-692376dcf634",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.weather.yandex.ru/v2/forecast?lat=-55&lon=50&lang=ru_RU",
+					"protocol": "https",
+					"host": [
+						"api",
+						"weather",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"v2",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "-55"
+						},
+						{
+							"key": "lon",
+							"value": "50"
+						},
+						{
+							"key": "lang",
+							"value": "ru_RU"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "\"-\" Запрос без указания ключа",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Yandex-API-Key",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.weather.yandex.ru/v2/forecast?lat=-55&lon=50&lang=ru_RU",
+					"protocol": "https",
+					"host": [
+						"api",
+						"weather",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"v2",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "-55"
+						},
+						{
+							"key": "lon",
+							"value": "50"
+						},
+						{
+							"key": "lang",
+							"value": "ru_RU"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "\"-\" Запрос c некорректным форматом координат",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Yandex-API-Key",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.weather.yandex.ru/v2/forecast?lat=фыв&lon=asd&lang=ru_RU",
+					"protocol": "https",
+					"host": [
+						"api",
+						"weather",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"v2",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "фыв"
+						},
+						{
+							"key": "lon",
+							"value": "asd"
+						},
+						{
+							"key": "lang",
+							"value": "ru_RU"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "\"-\" Запрос с неподдерживаемым языком",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Yandex-API-Key",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.weather.yandex.ru/v2/forecast?lat=-55&lon=50&lang=es_ES",
+					"protocol": "https",
+					"host": [
+						"api",
+						"weather",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"v2",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "-55"
+						},
+						{
+							"key": "lon",
+							"value": "50"
+						},
+						{
+							"key": "lang",
+							"value": "es_ES"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
