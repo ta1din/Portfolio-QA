@@ -20,6 +20,8 @@
 
 ## Проекты
 - Курсовая 1 - https://github.com/ta1din/Portfolio-QA/tree/main/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%201
+- Курсовая 2 - https://github.com/ta1din/Portfolio-QA/tree/main/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%202
+- Аттестация - 
 
 
 ## СВЯЗЬ
