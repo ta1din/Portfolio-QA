@@ -19,8 +19,7 @@
 - Языки: ``Русский``, ``English``, ``Español``
 
 ## Проекты
-- Курсовая 1 - http://surl.li/kfjah
-- Курсовая 2 - http://surl.li/kfjaj
+- Курсовая 1 и 2 - http://surl.li/kgvyh
 - Аттестация - http://surl.li/kfjal
 
 
